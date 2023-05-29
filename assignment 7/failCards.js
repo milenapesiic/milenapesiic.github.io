@@ -1,31 +1,31 @@
 failCards = [{
-  resource:"veggies", 
+  resource:"gold stars", 
   level: "high", 
   card: {
-    prompt: "You have been overcome by vegetables!",
-    rightChoiceText: "The Horror",
+    prompt: "Too many gold stars!! You're too good",
+    rightChoiceText: "AHHHHH",
     rightChoice: function(){location.reload();
       },
     
-    leftChoiceText: "The Bliss", 
+    leftChoiceText: "Thank god", 
     leftChoice: function(){location.reload();
     },
-    name: "VeggieDoom ",
+    name: "blinded ",
     resultText: "",
-    image: "./images/legumes.jpg"
+    image: "./images/penguin.png"
   }  
 }]
 
 defaultFailCard = {
-  prompt: "I don't know what you did wrong, but it was something",
-  rightChoiceText: "oops",
+  prompt: "Oops! Something went wrong",
+  rightChoiceText: "nooooo :(",
   rightChoice: function(){location.reload();
     },
   
-  leftChoiceText: "PAINTING SUCKS", 
+  leftChoiceText: "damn", 
   leftChoice: function(){location.reload();
   },
-  name: "Narrator",
-  resultText: "You made a mistake",
-  image: "./images/legumes.jpg"
+  name: "the council",
+  resultText: "",
+  image: "./images/penguin.png"
 }
